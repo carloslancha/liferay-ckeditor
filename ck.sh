@@ -79,6 +79,7 @@ case "$COMMAND" in
 
 				cd ..
 				git add ckeditor
+				git commit -m "chore: build CKEditor"
 
 				echo
 				echo "✅ DONE"
